@@ -12,6 +12,7 @@ body {
   background-color: rgb(249, 238, 255);
   background-image: url("../assets/images/background-pattern-desktop.svg");
   background-repeat: no-repeat;
+  background-size: contain;
   display: flex;
   justify-content: center;
 }
@@ -101,7 +102,6 @@ section h1 {
 @media (max-width: 38.125rem) {
   body {
     background-image: url("../assets/images/background-pattern-mobile.svg");
-    background-size: contain;
   }
   section {
     width: 25rem;
