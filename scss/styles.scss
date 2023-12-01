@@ -74,7 +74,7 @@ section {
             }
         }
     }
-    dt {
+    &_question {
         font-size: 1.125rem;
         font-weight: 600;
         label {
@@ -89,7 +89,7 @@ section {
             }
         }
     }
-    dd {
+    &_answer {
         margin: 0;
         color: variables.$clr-font-3;
         line-height: 1.5;
@@ -132,14 +132,14 @@ section {
                
             }
         }
-        dt {
+        &_question {
             font-size: 1rem;
             label {
                 padding: 1.25rem 0;
                 gap: 2.5rem;
             }
         }
-        dd {
+        &_answer {
             p {
                 padding: .3125rem 0 1.25rem 0;
                 font-size: .875rem;

@@ -73,11 +73,11 @@ section h1 {
   outline: 0.25rem solid rgb(47, 21, 51);
   outline-offset: 0.125rem;
 }
-.accordion dt {
+.accordion_question {
   font-size: 1.125rem;
   font-weight: 600;
 }
-.accordion dt label {
+.accordion_question label {
   padding: 1.5625rem 0;
   display: flex;
   justify-content: space-between;
@@ -85,16 +85,16 @@ section h1 {
   cursor: pointer;
   transition: color 0.3s;
 }
-.accordion dt label:hover {
+.accordion_question label:hover {
   color: rgb(160, 40, 215);
 }
-.accordion dd {
+.accordion_answer {
   margin: 0;
   color: rgb(141, 105, 145);
   line-height: 1.5;
   overflow: hidden;
 }
-.accordion dd p {
+.accordion_answer p {
   margin: 0;
   padding-bottom: 1.25rem;
 }
@@ -124,14 +124,14 @@ section h1 {
   .accordion_item input:checked + .accordion_item_inner {
     grid-template-rows: auto 1fr;
   }
-  .accordion dt {
+  .accordion_question {
     font-size: 1rem;
   }
-  .accordion dt label {
+  .accordion_question label {
     padding: 1.25rem 0;
     gap: 2.5rem;
   }
-  .accordion dd p {
+  .accordion_answer p {
     padding: 0.3125rem 0 1.25rem 0;
     font-size: 0.875rem;
   }
